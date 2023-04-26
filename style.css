@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  header {
+    background-color: #c847df;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #be1bdb;
+    color: #c7ff78;
+    padding: 20px;
+    text-align: center;
+  }
+  button, a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #c7ff78;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #c7ff78;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+  

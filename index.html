@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Default Student</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <img src="" alt="">
+</head>
+<body>
+
+</body>
+</html>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+ <a class="navbar-brand" href="#">Default Student</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+  <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+   <li class="nav-item">
+    <a class="nav-link" href="#home">Home</a>
+   </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#about">About me</a>
+    </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#contact">Contact</a>
+   </li>
+  </ul>
+ </div>
+</nav>
+<div id="home" class="container-fluid bg-light">
+ <h1>Welcome to the page of Yerassyl Bokenkhanov</h1>
+ <p>On this site you will learn the basic information about me that I did in an hour)</p> 
+</div>
+<div id="about" class="container-fluid">
+ <h1>About Me</h1>
+ <p></p>
+</div>
+<div id="contact" class="container-fluid bg-light">
+ <h1>Contact Us</h1>
+ <p>If you have any questions or comments about me, please fill out the form below.</p>
+ <form>
+  <div class="form-group">
+   <label for="name">Name:</label>
+   <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+  </div>
+  <div class="form-group">
+   <label for="email">Email:</label>
+   <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+  </div>
+  <div class="form-group">
+   <label for="message">Message:</label>
+   <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
+        </div>
+        <script>
+            $(document).ready(function(){
+                // hide all pages except the home page
+                $("#about").hide();
+                $("#contact").hide();
+                
+                // fade in the clicked page and fade out the others
+                $(".nav-link").click(function(){
+                    var page = $(this).attr("href");
+                    $(page).fadeIn(1000);
+                    $(".container-fluid").not(page).fadeOut(1000);
+                });
+            });
+            </script>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Website</h1>
+      <nav>
+        <ul>
+
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>About me</h2>
+        <p>Welcome to my website! My name is Bokenhanov Yerassyl. I am 19 years old and I am studying in Astana IT University.</p>
+        <h2>Hobbies</h2>
+        <p>In my spare time, I listen to music, play basketball and spend time with friends.</p>
+      </section>
+    </main>
+    <footer>
+        <img src="sources/ap21280523738198-1--cc4c958352f2bd1a4a45c203f1f7807fc0193457-s1100-c50.jpg" alt="">
+      <p>&copy; 2023 My Website.</p>
+    </footer>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <h2>Contacts</h2>
+  <p>Phone number:87713332010  
+  </p>
+  <a href="https://instagram.com/bokenkhanov?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">
+    <img src="https://cdn.icon-icons.com/icons2/1380/PNG/512/vcsinstagram_93529.png" alt="Instagram" width="40" height="40">
+  </a>
+  
